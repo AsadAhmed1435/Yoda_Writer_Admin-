@@ -1,0 +1,178 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Abrar Work */
+
+body {
+    padding: 0px !important;
+    margin: 0px !important;
+}
+
+::-webkit-scrollbar {
+    width: 0.111rem;
+    height: 0rem;
+}
+
+::-webkit-scrollbar-track {
+    background: theme-color("site-secondary1");
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #CECECE;
+    /* color of the scroll thumb */
+    border-radius: 1.25rem;
+    /* roundness of the scroll thumb */
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #A8A8A8;
+}
+
+
+/* HEADER FILE */
+@media (max-width: 420px) {
+
+    .logo-image {
+        display: none;
+    }
+
+    .left-nav-item {
+        padding-top: 29px !important;
+        padding-bottom: 29px !important;
+    }
+}
+
+/* DASHBOARD CONTAINER */
+@media (max-width: 1024px) {
+
+   .dashboard-container{
+    width: 100% !important;
+   }
+   
+}
+
+/* Graph Settings */
+.apexcharts-toolbar{
+    display: none !important;
+}
+.apexcharts-canvas{
+    width: 100% !important;
+}
+
+
+/* Table Settings */
+.css-5u3t2w-MuiDataGrid-root{
+    border: 0 !important;
+}
+.css-wop1k0-MuiDataGrid-footerContainer{
+    display: none !important;
+}
+.css-t89xny-MuiDataGrid-columnHeaderTitle{
+    font-weight: 700 !important;
+}
+.css-5u3t2w-MuiDataGrid-root .MuiDataGrid-cellContent{
+    color: #83878a !important;
+     font-weight: 600 !important;
+}
+.css-5u3t2w-MuiDataGrid-root .MuiDataGrid-row:nth-child(odd){
+    background-color: #F8F8F8 !important;
+}
+.MuiDataGrid-cell{
+    background-color: white !important;
+}
+
+
+
+
+
+
+
+
+
+/* Zeeshan Work */
+
+/* background-image: url(../img/loginbackgroundimage.png); */
+.background-image {
+    background-image: url(../../assets/img/loginbackgroundimage.png);
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.form-container {
+    border-radius: 20px;
+}
+
+.sign-up-button {
+    background-color: rgb(96, 230, 230);
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.sign-up-button:hover {
+    background-color: rgb(8, 181, 164);
+}
+
+.input-from {
+    max-width: 535px;
+}
+
+.heading {
+    font-size: 25px;
+    font-weight: 500;
+}
+
+@media (min-width: 280px) {
+    .heading {
+        font-size: 25px;
+    }
+
+    .font-size {
+        font-size: 13px;
+    }
+}
+
+@media (min-width: 450px) {
+    .heading {
+        font-size: 32px;
+    }
+
+    .font-size {
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 768px) {
+    .heading {
+        font-size: 34px;
+    }
+
+    .font-size {
+        font-size: 17px;
+    }
+}
+
+@media (min-width: 992px) {
+    .heading {
+        font-size: 35px;
+    }
+
+    .font-size {
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .heading {
+        font-size: 45px;
+    }
+
+    .font-size {
+        font-size: 18px;
+    }
+}
